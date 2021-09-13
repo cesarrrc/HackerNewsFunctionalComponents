@@ -6,7 +6,7 @@ import logo from '../logo.svg'
 
 
 const StoryList = () => {
-  const baseUrl = 'http://hn.algolia.com/api/v1/search?'
+  const baseUrl = 'https://hn.algolia.com/api/v1/search?'
   const [isLoading, setIsLoading] = useState(true)
   const [stories, setStories] = useState(null)
 
